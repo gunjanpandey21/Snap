@@ -66,12 +66,13 @@ const Logo = styled(motion.div)`
   padding: 1rem;
   cursor: pointer;
   img {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
   }
-  // h1 {
-  //   font-size: large;
-  // }
+  h1 {
+    font-size: 3rem;
+    color: #333;
+  }
 `;
 
 export default Nav;
